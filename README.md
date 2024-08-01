@@ -1,5 +1,10 @@
 # 艺迷商城
 
+艺迷商城：支持小程序、h5、安卓。
+
+![240801_153735](https://github.com/user-attachments/assets/96c05b18-7490-4023-a255-93c22480d1b8)
+
+
 ## 环境
 
 - node v18.19.0
