@@ -1,0 +1,147 @@
+.svg-icon {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+@mixin backgroundimg($url, $width: 24px, $height: 24px) {
+  width: $width;
+  height: $height;
+  background-image: url('~@/assets/svg/' + $url);
+}
+
+.si-alipay {
+  @include backgroundimg('alipay.svg', 64rpx, 64rpx);
+}
+
+.si-arrow-down {
+  @include backgroundimg('arrow-down.svg');
+}
+
+.si-arrow-right {
+  @include backgroundimg('arrow-right.svg');
+}
+
+.si-arrow-left {
+  @include backgroundimg('arrow-left.svg');
+}
+
+.si-close {
+  @include backgroundimg('close.svg');
+}
+
+.si-custom-service {
+  @include backgroundimg('custom-service.svg');
+}
+
+.si-home {
+  @include backgroundimg('home.svg');
+}
+
+.si-more {
+  @include backgroundimg('more.svg');
+}
+
+.si-nav-arrow-left {
+  @include backgroundimg('nav-arrow-left.svg');
+}
+
+.si-nav-share {
+  @include backgroundimg('nav-share.svg');
+}
+
+.si-position {
+  @include backgroundimg('position.svg');
+}
+
+.si-radio-active {
+  @include backgroundimg('radio-active.svg');
+}
+
+.si-radio {
+  @include backgroundimg('radio.svg');
+}
+
+.si-shopping-cart {
+  @include backgroundimg('shopping-cart.svg');
+}
+
+.si-success {
+  @include backgroundimg('success.svg');
+}
+
+.si-has-success {
+  @include backgroundimg('has-success.svg');
+}
+
+.si-cancel {
+  @include backgroundimg('cancel.svg');
+}
+
+.si-del {
+  @include backgroundimg('del.svg');
+}
+
+.si-add {
+  @include backgroundimg('add.svg');
+}
+
+.si-time {
+  @include backgroundimg('time.svg');
+}
+
+.si-wechat {
+  @include backgroundimg('wechat.svg');
+}
+
+.si-add-goods {
+  @include backgroundimg('add-goods.svg');
+}
+
+.si-check {
+  @include backgroundimg('check.svg');
+}
+
+.si-checked {
+  @include backgroundimg('checked.svg');
+}
+
+.si-delivery {
+  @include backgroundimg('delivery.svg');
+}
+
+.si-service {
+  @include backgroundimg('service.svg');
+}
+
+.si-phone1 {
+  @include backgroundimg('phone1.svg');
+}
+
+.si-position1 {
+  @include backgroundimg('position1.svg');
+}
+
+.si-used {
+  @include backgroundimg('used.svg');
+}
+
+.si-expired {
+  @include backgroundimg('expired.svg');
+}
+
+.si-filter {
+  @include backgroundimg('filter.svg');
+}
+
+.si-customer {
+  @include backgroundimg('customer.svg');
+}
+
+.si-order {
+  @include backgroundimg('order.svg');
+}
+
+.si-amount {
+  @include backgroundimg('amount.svg');
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="76px" height="76px" viewBox="0 0 76 76" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 11</title>
+    <defs>
+        <circle id="path-1" cx="34" cy="34" r="34"></circle>
+        <filter x="-10.3%" y="-7.4%" width="120.6%" height="120.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.698039216   0 0 0 0 0.137254902   0 0 0 0 0.219607843  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#E2455C" offset="0%"></stop>
+            <stop stop-color="#B22338" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="----------我的商品" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="我的商品" transform="translate(-295, -750)">
+            <g id="编组-11" transform="translate(299, 752)">
+                <g id="椭圆形">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="编组-10" transform="translate(10, 11)">
+                    <g id="商品-1" transform="translate(12, 0)" fill-rule="nonzero">
+                        <rect id="矩形" fill="#000000" opacity="0" x="0" y="0" width="24" height="24"></rect>
+                        <path d="M21.1666667,1 L2.83333333,1 C1.825,1 1,1.825 1,2.83333333 L1,21.1666667 C1,22.175 1.825,23 2.83333333,23 L21.1666667,23 C22.175,23 23,22.175 23,21.1666667 L23,2.83333333 C23,1.825 22.175,1 21.1666667,1 Z M17.8895833,12.3953125 C17.4742187,15.2770833 14.9963542,17.5 12,17.5 C9.00651042,17.5 6.52578125,15.2770833 6.11041667,12.3953125 C5.54322917,12.2263021 5.125,11.7049479 5.125,11.0833333 C5.125,10.3242187 5.74088542,9.70833333 6.5,9.70833333 C7.25911458,9.70833333 7.875,10.3242187 7.875,11.0833333 C7.875,11.65625 7.52552083,12.1432292 7.02994792,12.3523437 C7.41953125,14.7471354 9.49635417,16.5833333 12,16.5833333 C14.5036458,16.5833333 16.5804688,14.7471354 16.9700521,12.3523437 C16.4744792,12.1432292 16.125,11.65625 16.125,11.0833333 C16.125,10.3242188 16.7408854,9.70833333 17.5,9.70833333 C18.2591146,9.70833333 18.875,10.3242188 18.875,11.0833333 C18.875,11.7049479 18.4567708,12.2263021 17.8895833,12.3953125 Z M21.625,4.20833333 C21.625,4.7125 21.2125,5.125 20.7083333,5.125 L3.29166667,5.125 C2.7875,5.125 2.375,4.7125 2.375,4.20833333 L2.375,3.29166667 C2.375,2.7875 2.7875,2.375 3.29166667,2.375 L20.7083333,2.375 C21.2125,2.375 21.625,2.7875 21.625,3.29166667 L21.625,4.20833333 Z" id="形状" fill="url(#linearGradient-3)"></path>
+                    </g>
+                    <text id="添加商品" font-family="PingFangSC-Regular, PingFang SC" font-size="12" font-weight="normal" line-spacing="20" fill="#666666">
+                        <tspan x="0" y="39">添加商品</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

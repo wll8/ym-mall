@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="70px" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>成功@2x</title>
+    <g id="----------我的订单" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="付款成功" transform="translate(-153, -168)" fill="#75BE00" fill-rule="nonzero">
+            <g id="编组-6" transform="translate(28, 168)">
+                <g id="成功" transform="translate(125, 0)">
+                    <rect id="矩形" opacity="0" x="0" y="0" width="70" height="70"></rect>
+                    <path d="M35,70 C15.6700338,70 0,54.3299662 0,35 C0,15.6700338 15.6700338,0 35,0 C54.3299662,0 70,15.6700338 70,35 C70,54.3299662 54.3299662,70 35,70 Z M31.6100586,44.2149805 L21.5999219,34.0850098 L14.9999609,40.39 C19.7999512,42.9750098 26.5249414,47.6900293 32.2849023,54.9999707 C36.3549512,47.3500098 48.8999219,31.7000195 54.9999023,30.3000195 C54.0149121,26.355 53.4599023,18.9499707 54.9999023,15.0000293 C42.49,23.2499805 31.6100586,44.2149805 31.6100586,44.2149805 Z" id="形状"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>箭头@2x</title>
+    <g id="-----我的订单" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="订单详情-待付款" transform="translate(-343, -204)" fill="#BBBBBB" fill-rule="nonzero">
+            <g id="编组-6备份-2" transform="translate(0, 174)">
+                <g id="箭头" transform="translate(343, 30)">
+                    <rect id="矩形" opacity="0" x="0" y="0" width="16" height="16"></rect>
+                    <polygon id="路径" points="9.3078125 7.9859375 3.7625 13.53125 5.21875 14.9859375 12.209375 7.9953125 12.2 7.9859375 12.209375 7.978125 5.21875 0.9859375 3.7625 2.4421875"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

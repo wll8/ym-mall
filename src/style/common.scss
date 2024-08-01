@@ -1,0 +1,46 @@
+/* 常用样式类名 */
+
+// 单行文本隐藏
+.single-line-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.content-card {
+  padding: 24rpx 32rpx;
+  background-color: #fff;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+}
+
+.gray-content {
+  filter: grayscale(1);
+}
+
+// 页面背景
+.page-background {
+  position: relative;
+  left: 0;
+  /* stylelint-disable-next-line order/properties-order */
+  right: 0;
+  /* stylelint-disable-next-line order/properties-order */
+  top: 0;
+  /* stylelint-disable-next-line declaration-block-no-redundant-longhand-properties */
+  bottom: 0;
+  width: 100vw;
+  min-height: 100vh;
+  overflow: auto;
+  /* stylelint-disable-next-line order/properties-order */
+  z-index: 1;
+  background-color: #f9f9f9;
+}
+/* stylelint-disable-next-line scss/double-slash-comment-empty-line-before */
+/* #ifdef H5 */
+.page-background {
+  min-height: calc(100vh - 44px);
+}
+/* #endif */

@@ -1,0 +1,35 @@
+<template>
+  <view class="commodity-card">
+    <GoodsCardV2
+      :data="data"
+      @card-click="cardClick(data)"
+      :header-info="{ title, ...headerOption }"
+      :buttons="buttons"
+    >
+      <template #footer>
+        <slot :row="data" />
+      </template>
+    </GoodsCardV2>
+  </view>
+</template>
+
+<script lang="ts" setup>
+import type { ICardOption } from './type'
+import type { IButton } from '../goods-card/type'
+const emit = defineEmits(['cardClick'])
+interface IProps {
+  data?: any
+  buttons?: IButton[]
+  title?: string
+  headerOption?: ICardOption
+}
+
+const props = defineProps<IProps>()
+function cardClick(item: any) {
+  emit('cardClick', item)
+}
+</script>
+
+<style lang="scss" scoped>
+//
+</style>

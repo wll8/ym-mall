@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+    height="32"
+    width="32"
+    viewBox="0 0 36 37"
+    version="1.1"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+  >
+    <title>编组 9@2x</title>
+    <defs>
+      <filter
+        x="-35.0%"
+        y="-25.0%"
+        width="170.0%"
+        height="170.0%"
+        filterUnits="objectBoundingBox"
+        id="filter-1"
+      >
+        <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+        <feGaussianBlur
+          stdDeviation="2"
+          in="shadowOffsetOuter1"
+          result="shadowBlurOuter1"
+        ></feGaussianBlur>
+        <feColorMatrix
+          values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"
+          type="matrix"
+          in="shadowBlurOuter1"
+          result="shadowMatrixOuter1"
+        ></feColorMatrix>
+        <feMerge>
+          <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+          <feMergeNode in="SourceGraphic"></feMergeNode>
+        </feMerge>
+      </filter>
+    </defs>
+    <g id="-----首页" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+      <g id="商品详情" transform="translate(-15, -53)">
+        <g id="编组-9" transform="translate(15, 53.139)">
+          <circle id="椭圆形" fill="#000000" opacity="0.100000001" cx="18" cy="18" r="18"></circle>
+          <g
+            id="3.1-返回1"
+            filter="url(#filter-1)"
+            transform="translate(8, 8)"
+            fill="#FFFFFF"
+            fill-rule="nonzero"
+          >
+            <rect id="矩形" opacity="0" x="0" y="0" width="20" height="20"></rect>
+            <path
+              d="M7.58641111,10.5004653 L14.686156,3.7414874 C15.1046147,3.34243199 15.1046147,2.69659393 14.686156,2.29881346 C14.2677182,1.90039551 13.5888217,1.90039551 13.1703839,2.29881346 L5.31335853,9.77928252 C4.89554716,10.1777005 4.89554716,10.8238675 5.31335853,11.2210311 L13.1703839,18.7011917 C13.3802501,18.9004109 13.6545523,19 13.9288963,19 C14.2032612,19 14.4775635,18.9003904 14.686156,18.7005542 C15.1046146,18.3021363 15.1046146,17.6572236 14.686156,17.2588056 L7.58641111,10.5004653"
+              id="路径"
+            ></path>
+          </g>
+        </g>
+      </g>
+    </g>
+  </svg>
