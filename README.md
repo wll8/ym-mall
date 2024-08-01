@@ -5,18 +5,26 @@
 ![240801_153735](https://github.com/user-attachments/assets/96c05b18-7490-4023-a255-93c22480d1b8)
 
 
-## 环境
+## 环境和特性
 
-- node v18.19.0
-- pnpm 9.0.6
+- 环境
+  - node v18.19.0
+  - pnpm 9.0.6
 
-- UnoCss https://alfred-skyblue.github.io/unocss-docs-cn/
-- uni-ui https://hellouniapp.dcloud.net.cn/pages/component/view/view
-- uv-ui https://www.uvui.cn/components/intro.html
-- wot-ui https://wot-design-uni.gitee.io/component/button.html
-- tmui https://tmui.design/
-- firstui https://doc.firstui.cn/docs/introduce.html
-- mockjs https://wll8.github.io/mockjs-examples/
+- 特性
+  - 请求封装 + 请求拦截 + 路由拦截 + 数据模拟
+  - uniapp + Vue3 + Js/Ts + Vite4 + UnoCss + VSCode(无需依赖HBuilderX)
+  - UnoCSS + UnoCSS Icons
+  - prettier + eslint + stylelint + husky
+  - pinia + pinia-plugin-persistedstate
+
+## 参考文档
+
+- 样式生成 https://alfred-skyblue.github.io/unocss-docs-cn/
+- UI库 https://wot-design-uni.gitee.io/component/button.html
+- 数据生成 https://wll8.github.io/mockjs-examples/
+- 基础框架 https://codercup.github.io/unibest-docs/
+- 接口调试 https://www.hongqiye.com/doc/mockm/
 
 ## 安装
 
@@ -39,11 +47,6 @@
   - `pnpm push:h5` 上传到服务器
 - weixin平台：`pnpm build:mp-weixin`, 打包后的文件在 `dist/build/mp-weixin`，然后通过微信开发者工具导入，并点击右上角的“上传”按钮进行上传。
 - APP平台：`pnpm build:app`, 然后打开 `HBuilderX`，导入刚刚生成的`dist/build/app` 文件夹，选择发行 - APP云打包。
-
-## 框架说明
-
-- [框架预览](https://codercup.github.io/unibest/)
-- [阅读文档](https://codercup.github.io/unibest-docs/guide/introduction)
 
 
 ## 全局方法
